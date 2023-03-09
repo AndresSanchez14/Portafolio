@@ -20,9 +20,6 @@
     border-radius: 20px;
 }
 
-
-
-
 .navbar a{
     color:#7e7e7e;
     text-decoration: none;
@@ -30,7 +27,7 @@
     padding: 1rem;
     /* font-weight: 500;  */
 }
-.navbar:hover a{
+.navbar a:hover{
 
     background-color: rgb(132, 132, 132);
     color: #ffffff !important;
