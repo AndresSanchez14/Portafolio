@@ -1,0 +1,88 @@
+#containerResume{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding-left: 5rem;
+    line-height: 2rem;
+    height: 90vh;
+    overflow: hidden;
+}
+#containerResume h2{
+    margin-bottom: 2rem;
+}
+
+#resumen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 2rem;
+    height: 40%;
+    overflow: hidden;
+    
+}
+
+#educacion{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#educacion ul{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+    border-left: 2px solid #271d45;
+}
+
+#educacion h5{
+    text-transform: uppercase;
+    color: #635985;
+    font-size: 1.5rem;
+}
+#educacion h4{
+    color: #7e7e7e;
+}
+
+
+
+@media (max-width: 946px) {
+    #resumen{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1rem;
+        text-align: start;
+        width: 100%;
+        margin-bottom: 2rem;
+        height: 40%;
+        
+    }
+    #educacion{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-between;
+    }
+    .titulo{
+        font-size: 2rem;
+        color: #635985;
+    }
+    #educacion ul{
+       
+       
+     
+        padding-left: 0.6rem;
+        border-left: 2px solid #271d45;
+    }
+
+
+}

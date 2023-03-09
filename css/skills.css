@@ -1,0 +1,63 @@
+#skills{
+    margin-top: 3rem;
+    padding-left: 5rem;
+    line-height: 2rem; 
+    height: 60vh;
+}
+    
+#skills h3{
+    margin: 5rem 0 5rem 0;
+}
+
+#skills article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5rem;
+    padding: 0 4rem 0 0;
+    height: 25rem;
+}
+
+#skills progress{
+    border-radius: 1rem;
+    background-color: #fefdff;
+    box-shadow: 0 0 1rem black;
+    height: 1.25rem;
+    width: 100%;
+    border: 3px solid black;
+}
+
+#skills span{
+    display: flex;
+    flex-direction: column;
+}
+#skills span fieldset{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#skills span fieldset b{
+    color: #271d45;
+    font-size: 2.25rem;
+}
+#skills span p{
+    margin-bottom: 2rem;
+    color: #271d45;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 946px) {
+    #skills{
+        margin-top: 3rem;
+        padding-left: 5rem;
+        line-height: 2rem; 
+        height: 45vh;
+    }
+
+    #skills span fieldset b{
+        color: #271d45;
+        font-size: 1.5rem;
+    }
+}
