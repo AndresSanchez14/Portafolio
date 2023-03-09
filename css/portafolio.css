@@ -3,6 +3,7 @@
     padding-left: 5rem;
     padding-right: 5rem;
     height: 90vh;
+    margin-bottom: 3rem;
 }
 
 #portafolio span:hover{
@@ -17,7 +18,7 @@
     
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 1.5rem;
     height: 80%;
 }
 
@@ -25,9 +26,8 @@
     background-color: #47357d;
     border-radius: 2rem;
     width: 33.33%;
-    box-shadow: 0 0 1rem black ;
     border: 3px solid black;
-    padding: 1rem;
+    padding: 0.5rem;
     overflow: hidden;
 }
 
@@ -41,7 +41,8 @@
 
 #portafolio article span p{
     height: 35%;
-    text-align: justify;   
+    text-align: justify; 
+    overflow: hidden;   
 }
 #portafolio article span nav{
     text-align: center;
@@ -71,25 +72,35 @@
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-        height: 85%;
+        height: 90%;
     }
 
     #portafolio article span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
         width: 100%;
     }
     #portafolio article span picture{
-        display: flex;
-        justify-content: center;
+        height: 60%;
+        width: 80%;
+        
+        
+        
     }
     #portafolio article span picture img{
-        height: 50%;
-        width: 60%;
+        height: 100%;
+        object-fit: cover;
         margin-bottom: 0.5rem;
         box-shadow: 0 0 1rem black ;
     }
     #portafolio article span p{
+        margin-top: 1rem;
         height: 15%;
-        text-align: justify;   
+        font-size: 0.85rem;
+        text-align: justify;  
+        overflow: hidden; 
     }
     #portafolio article span nav{
         display: flex;

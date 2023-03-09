@@ -4,18 +4,27 @@
     margin-top: 2rem;
     
 }
-#containerHola picture{
+#containerHola aside{
     width: 50%;
     height: 100%;
-    padding: 4rem 5rem 4rem 5rem;
     overflow: hidden;
     border-radius: 1rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     
     
 }
-#containerHola picture img{
-    object-fit: cover;
-    box-shadow: 0 0 1rem black;
+#containerHola aside picture{
+    width: 95%;
+    height: 95%;
+    border-radius: 2rem;
+    justify-self: start;
+   
+}
+#containerHola aside picture img{
+    object-fit: contain;
+    /* box-shadow: 0 0 1rem black; */
 }
 
 #containerHola article{
