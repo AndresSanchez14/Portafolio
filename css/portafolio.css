@@ -1,14 +1,12 @@
 #portafolio{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 5rem;
     padding-right: 5rem;
     height: 90vh;
     margin-bottom: 3rem;
 }
 
-#portafolio span:hover{
-    cursor: pointer;
-}
 
 #portafolio h2{
     margin-bottom: 4rem;
@@ -23,8 +21,8 @@
 }
 
 #portafolio article span{
-    background-color: #47357d;
-    border-radius: 2rem;
+    background-color: #52616B;
+    border-radius: 1rem;
     width: 33.33%;
     border: 3px solid black;
     padding: 0.5rem;
@@ -34,48 +32,65 @@
 #portafolio article span picture img{
     border: 3px solid black;
     object-fit: cover;
-    height: 45%;
+    height: 43%;
     margin-bottom: 2rem;
     box-shadow: 0 0 1rem black ;
 }
 
 #portafolio article span p{
-    height: 35%;
+    height: 20%;
+    color: #1E2022;
+    font-size: 1.7rem;
     text-align: justify; 
-    overflow: hidden;   
+    margin-bottom: 1rem;
 }
 #portafolio article span nav{
     text-align: center;
     font-size: 2.5rem;   
     transition: all 1s ease;  
-    overflow: hidden;
+
 }
 #portafolio article span nav a{
-    color: black;
+    color: #1E2022;
+    
 
 }
 
 #portafolio article span nav a:hover{
-    color: snow;
-    transition: all 1s ease;    
+    color: #4000fe;
+    
+    transition: all 1s ease;   
   }
+  #portafolio article span nav a span{
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  #portafolio article span nav a span:hover{
+    scale: 1.2;
+  }
+  
 
   @media (max-width: 946px) {
 
     #portafolio{
-        height: 100vh;
+        padding-top: 2rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        height: 156%;
     }
 
     #portafolio article{
     
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 2rem;
-        height: 90%;
+        justify-content: space-around;
+
+        height: 97%;
     }
 
     #portafolio article span{
+        padding-top: 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -93,22 +108,23 @@
         height: 100%;
         object-fit: cover;
         margin-bottom: 0.5rem;
-        box-shadow: 0 0 1rem black ;
+        box-shadow: 0 0 0.5rem black ;
     }
     #portafolio article span p{
-        margin-top: 1rem;
+        margin-top: 1.2rem;
+        width: 80%;
         height: 15%;
-        font-size: 0.85rem;
+        font-size: 1.5rem;
         text-align: justify;  
         overflow: hidden; 
     }
     #portafolio article span nav{
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        width: 60%;
         height: 25%;
-        justify-content: center;
-        text-align: center;
-        font-size: 1.75rem;   
+        justify-content: space-around;
+        font-size: 2rem;   
         margin-top: 1rem;
 
     }

@@ -13,12 +13,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 5rem;
+    gap: 1rem;
     padding: 0 4rem 0 0;
-    height: 25rem;
+    height: 80%;
 }
 
-#skills progress{
+#skills article span progress{
     border-radius: 1rem;
     background-color: #fefdff;
     box-shadow: 0 0 1rem black;
@@ -29,6 +29,7 @@
 }
 
 #skills span{
+    
     display: flex;
     flex-direction: column;
 }
@@ -50,9 +51,10 @@
 }
 
 @media (max-width: 946px) {
+    
     #skills{
         margin-top: 3rem;
-        padding-left: 5rem;
+        padding-left: 1rem;
         line-height: 2rem; 
         height: 45vh;
     }

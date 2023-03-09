@@ -16,9 +16,8 @@
     
 }
 #containerHola aside picture{
-    width: 95%;
+    width: 100%;
     height: 95%;
-    border-radius: 2rem;
     justify-self: start;
    
 }
@@ -44,12 +43,12 @@
     align-items: start;
     text-align: start;
     padding: 2rem 0 1rem 0;
-    color: rgb(255, 255, 255);
+    color: #52616B;
 }
 
 .titulo{
     font-size: 3rem;
-    color: #635985;
+    color: #1E2022;
     
 }
 
@@ -65,11 +64,11 @@
 }
 
 #contacto p{
-    color:#ffffff;
+    color:#52616B;
     text-align: start;
 }
 #contacto p b{
-    color: #7e7e7e;
+    color: #1E2022;
 }
 
 #redes{
@@ -80,27 +79,42 @@
     transition: all 1s ease;  
 }
 #redes a{
+
     margin-right: 2.5rem;
 }
-#redes a:hover{
-  color: snow;
-  transition: all 1s ease;    
+#redes a span{
+    color: #1E2022;
+}
+#redes a span:hover{
+  color: #4000fe;
+  scale: 1.3;
+  transition: all 1s ease;   
+
 }
 
 @media (max-width: 946px) {
+
     .titulo{
-        font-size: 2rem;
-        color: #635985;
+        font-size: 1.75rem;
+        color: #1E2022;
         
     }
+
+    #containerHola{
+        margin-top: 1rem; 
+    }
     #containerHola article{
-        font-size: 1rem;
-        width: 60%;
+        font-size: 1.05rem;
+        width: 65%;
     }
 
     #containerHola picture{
-        width: 40%;
-        padding: 4rem 4rem 4rem 4rem;
+        width: 35%;
+        padding:0.5rem;
+    }
+    #containerHola picture img{
+        object-fit: contain;
+        width: 100%;
     }
     #redes{ 
         font-size: 2rem;

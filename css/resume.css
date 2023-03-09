@@ -4,7 +4,7 @@
     margin-top: 5rem;
     padding-left: 5rem;
     line-height: 2rem;
-    height: 100vh;
+    height: 140vh;
     overflow: hidden;
 }
 #containerResume h2{
@@ -14,12 +14,12 @@
 #resumen{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 1.3rem;
     text-align: start;
     width: 80%;
     margin-bottom: 1rem;
-    height: 45%;
+    height: 50%;
     overflow: hidden;
 
     
@@ -29,7 +29,7 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    height: 55%;
+    height: 50%;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -40,30 +40,35 @@
     flex-direction: column;
     justify-content: space-between;
     padding-left: 1rem;
-    border-left: 2px solid #271d45;
+    border-left: 3px solid #1E2022;
 }
 
 #educacion h5{
     text-transform: uppercase;
-    color: #635985;
+    color: #1E2022;
     font-size: 1.5rem;
 }
 #educacion h4{
-    color: #7e7e7e;
+    color: #52616B;
 }
 
 
 
 @media (max-width: 946px) {
+
+    #containerResume{
+        margin-top: 1rem;
+        padding-left: 1rem;
+    }
     #resumen{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        font-size: 1rem;
         text-align: start;
         width: 100%;
         margin-bottom: 2rem;
         height: 40%;
+        font-size: 1rem;
         
     }
     #educacion{
@@ -73,10 +78,7 @@
         height: 60%;
         justify-content: space-between;
     }
-    .titulo{
-        font-size: 2rem;
-        color: #635985;
-    }
+    
     #educacion ul{
        
        

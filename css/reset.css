@@ -10,7 +10,7 @@ html{
 img{
     width: 100%;
     height: 100%;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 body{
@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #635985;
+    background-color: #fffeff;
     border-top-right-radius: 20%;
     background-image: url("../img/background.jpg");
     background-size: contain;
@@ -28,10 +28,10 @@ body{
 }
 
 #container{
-    width: 85%;
+    width: 90%;
     height: auto;
-    background-color: #c8b7ff;
-    color: #fff;  
+    background-color: #C9D6DF;
+    color: #52616B;  
 }
 
 @media (max-width: 946px){
@@ -39,6 +39,6 @@ body{
         width: 100%; 
     }
     body{
-        font-size: 1rem;
+        font-size:1.2rem;
     }
 }
