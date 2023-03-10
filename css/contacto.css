@@ -24,6 +24,7 @@
     width: 30%;
     font-size: 1.2rem;
 }
+
 #contactame p{
     display: flex;
     gap: 1rem;
@@ -33,6 +34,7 @@
 }
 #contactame p span{
     font-size: 3rem;
+    color:#1E2022
 }
 #espacio{
     margin-top: 1.5rem;
@@ -40,18 +42,29 @@
 
 #contactame a{
     
-    color: #47357d;
+    
     font-size: 3rem;
     padding-bottom: 1.5rem;
     padding-left: 1rem;
+}
+#contactame a:hover{
+    color: #4000fe;
+    scale: 1.1;
+    
+    transition: all 1s ease; 
+}
+#contactame a span{
+    color: #1E2022;
 }
 
 
 @media (max-width: 946px) {
     
-    #contactoFotter{
-        padding-left: 1rem;
-        padding-top: 2rem;     
+    #contactoFotter article{
+        display: flex;
+        flex-direction: column;
+
+        padding-left: 1rem;     
         
     }
     #contactoFotter h3{
@@ -60,8 +73,38 @@
     
     }
     
+    #contactame{
+        font-size: 0.9rem;
+    }
 
+    #contactame p{
+        padding-left: 0;
+        width: 80%;
+        
+    }
 
+    #contactame p span{
+        font-size: 1.5rem;
+    }
+
+    #espacio{
+        margin-top: 0;
+    }
+    #contactame fieldset{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    
+    #contactame a{
+        margin-right: 1.5rem;
+        color: #47357d;
+        font-size: 2.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 0;
+        align-self: center;
+    }
 }
 
 
@@ -89,7 +132,7 @@
 }
 #fieltext form fieldset{
     font-size: 2rem;
-    color: #47357d;
+    color: #1E2022;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -140,5 +183,37 @@
 
 #fieltext form button:hover{
     cursor: pointer;
+}
+
+
+@media (max-width: 946px) {
+    #fieltext h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #fieltext form{
+        border: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        gap: 1rem;
+        margin-right: 2rem;
+        border-radius: 2rem;
+    }
+
+    #fieltext form fieldset{
+        font-size: 1.2rem;
+        color: #1E2022;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #fieltext{   
+        width: 100%;
+        margin-bottom: 1rem; 
+    }
+
 }
 

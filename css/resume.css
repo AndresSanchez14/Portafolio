@@ -14,7 +14,7 @@
 #resumen{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 1.3rem;
     text-align: start;
     width: 80%;
